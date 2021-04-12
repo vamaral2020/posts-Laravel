@@ -1,0 +1,9 @@
+@extends('layouts.app')
+@section('content')
+    <form>
+<p>{{$item->id}}</p>
+    <p>{{$item->title}}</p>
+    <p>{{$item->subtitle}}</p>
+    <p>{{$item->content}}</p>
+</form>
+@endsectio
